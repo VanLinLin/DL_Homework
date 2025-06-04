@@ -1,0 +1,544 @@
+Training Log Started (Single Pass): NVIDIA GeForce RTX 5090
+==============================
+隨機種子已通過 set_seed 函數設定為: 42
+Using device: cuda
+Cls DataLoaders: train=240, val=60, replay=240
+Det DataLoaders: train=240, val=60, replay=240
+Seg DataLoaders: train=240, val=60, replay=240
+
+==================== S1 (Seg) Training ====================
+S1 (Seg) (Seg) | Epoch: 1 | Average Training Loss: 2.8492
+S1 (Seg) Val | Epoch: 1 | Validation Loss: 2.9206 | mIoU: 0.0609
+S1 (Seg) | Epoch: 1 | Current LR: 1.0e-04
+S1 (Seg): New best mIoU: 0.0609, model saved.
+S1 (Seg) (Seg) | Epoch: 2 | Average Training Loss: 1.9717
+S1 (Seg) Val | Epoch: 2 | Validation Loss: 2.5188 | mIoU: 0.1955
+S1 (Seg) | Epoch: 2 | Current LR: 1.0e-04
+S1 (Seg): New best mIoU: 0.1955, model saved.
+S1 (Seg) (Seg) | Epoch: 3 | Average Training Loss: 1.4642
+S1 (Seg) Val | Epoch: 3 | Validation Loss: 1.9971 | mIoU: 0.2798
+S1 (Seg) | Epoch: 3 | Current LR: 1.0e-04
+S1 (Seg): New best mIoU: 0.2798, model saved.
+S1 (Seg) (Seg) | Epoch: 4 | Average Training Loss: 1.0739
+S1 (Seg) Val | Epoch: 4 | Validation Loss: 1.8096 | mIoU: 0.3186
+S1 (Seg) | Epoch: 4 | Current LR: 1.0e-04
+S1 (Seg): New best mIoU: 0.3186, model saved.
+S1 (Seg) (Seg) | Epoch: 5 | Average Training Loss: 0.7933
+S1 (Seg) Val | Epoch: 5 | Validation Loss: 1.4574 | mIoU: 0.3654
+S1 (Seg) | Epoch: 5 | Current LR: 1.0e-04
+S1 (Seg): New best mIoU: 0.3654, model saved.
+S1 (Seg) (Seg) | Epoch: 6 | Average Training Loss: 0.6413
+S1 (Seg) Val | Epoch: 6 | Validation Loss: 1.2432 | mIoU: 0.3806
+S1 (Seg) | Epoch: 6 | Current LR: 1.0e-04
+S1 (Seg): New best mIoU: 0.3806, model saved.
+S1 (Seg) (Seg) | Epoch: 7 | Average Training Loss: 0.5101
+S1 (Seg) Val | Epoch: 7 | Validation Loss: 1.1521 | mIoU: 0.4173
+S1 (Seg) | Epoch: 7 | Current LR: 1.0e-04
+S1 (Seg): New best mIoU: 0.4173, model saved.
+S1 (Seg) (Seg) | Epoch: 8 | Average Training Loss: 0.3896
+S1 (Seg) Val | Epoch: 8 | Validation Loss: 1.0352 | mIoU: 0.4688
+S1 (Seg) | Epoch: 8 | Current LR: 1.0e-04
+S1 (Seg): New best mIoU: 0.4688, model saved.
+S1 (Seg) (Seg) | Epoch: 9 | Average Training Loss: 0.3211
+S1 (Seg) Val | Epoch: 9 | Validation Loss: 0.9603 | mIoU: 0.4953
+S1 (Seg) | Epoch: 9 | Current LR: 1.0e-04
+S1 (Seg): New best mIoU: 0.4953, model saved.
+S1 (Seg) (Seg) | Epoch: 10 | Average Training Loss: 0.2898
+S1 (Seg) Val | Epoch: 10 | Validation Loss: 0.9754 | mIoU: 0.4993
+S1 (Seg) | Epoch: 10 | Current LR: 1.0e-04
+S1 (Seg): New best mIoU: 0.4993, model saved.
+S1 (Seg) (Seg) | Epoch: 11 | Average Training Loss: 0.2515
+S1 (Seg) Val | Epoch: 11 | Validation Loss: 0.9890 | mIoU: 0.4988
+S1 (Seg) | Epoch: 11 | Current LR: 1.0e-04
+S1 (Seg) (Seg) | Epoch: 12 | Average Training Loss: 0.2183
+S1 (Seg) Val | Epoch: 12 | Validation Loss: 0.9108 | mIoU: 0.4833
+S1 (Seg) | Epoch: 12 | Current LR: 1.0e-04
+S1 (Seg) (Seg) | Epoch: 13 | Average Training Loss: 0.2120
+S1 (Seg) Val | Epoch: 13 | Validation Loss: 0.9238 | mIoU: 0.4466
+S1 (Seg) | Epoch: 13 | Current LR: 1.0e-04
+S1 (Seg) (Seg) | Epoch: 14 | Average Training Loss: 0.1868
+S1 (Seg) Val | Epoch: 14 | Validation Loss: 0.9018 | mIoU: 0.4642
+S1 (Seg) | Epoch: 14 | Current LR: 1.0e-04
+S1 (Seg) (Seg) | Epoch: 15 | Average Training Loss: 0.1810
+S1 (Seg) Val | Epoch: 15 | Validation Loss: 0.9187 | mIoU: 0.4559
+S1 (Seg) | Epoch: 15 | Current LR: 1.0e-04
+S1 (Seg) (Seg) | Epoch: 16 | Average Training Loss: 0.2008
+S1 (Seg) Val | Epoch: 16 | Validation Loss: 1.0299 | mIoU: 0.4158
+S1 (Seg) | Epoch: 16 | Current LR: 1.0e-04
+S1 (Seg) (Seg) | Epoch: 17 | Average Training Loss: 0.1865
+S1 (Seg) Val | Epoch: 17 | Validation Loss: 0.9482 | mIoU: 0.4910
+S1 (Seg) | Epoch: 17 | Current LR: 1.0e-04
+S1 (Seg) (Seg) | Epoch: 18 | Average Training Loss: 0.1592
+S1 (Seg) Val | Epoch: 18 | Validation Loss: 0.8953 | mIoU: 0.4915
+S1 (Seg) | Epoch: 18 | Current LR: 1.0e-04
+S1 (Seg) (Seg) | Epoch: 19 | Average Training Loss: 0.1780
+S1 (Seg) Val | Epoch: 19 | Validation Loss: 0.8410 | mIoU: 0.5212
+S1 (Seg) | Epoch: 19 | Current LR: 7.5e-05
+S1 (Seg): New best mIoU: 0.5212, model saved.
+S1 (Seg) (Seg) | Epoch: 20 | Average Training Loss: 0.1482
+S1 (Seg) Val | Epoch: 20 | Validation Loss: 0.8508 | mIoU: 0.4992
+S1 (Seg) | Epoch: 20 | Current LR: 7.5e-05
+S1 (Seg) (Seg) | Epoch: 21 | Average Training Loss: 0.1330
+S1 (Seg) Val | Epoch: 21 | Validation Loss: 0.8477 | mIoU: 0.5023
+S1 (Seg) | Epoch: 21 | Current LR: 7.5e-05
+S1 (Seg) (Seg) | Epoch: 22 | Average Training Loss: 0.1392
+S1 (Seg) Val | Epoch: 22 | Validation Loss: 0.8415 | mIoU: 0.4974
+S1 (Seg) | Epoch: 22 | Current LR: 7.5e-05
+S1 (Seg) (Seg) | Epoch: 23 | Average Training Loss: 0.1237
+S1 (Seg) Val | Epoch: 23 | Validation Loss: 0.8767 | mIoU: 0.5049
+S1 (Seg) | Epoch: 23 | Current LR: 7.5e-05
+S1 (Seg) (Seg) | Epoch: 24 | Average Training Loss: 0.1296
+S1 (Seg) Val | Epoch: 24 | Validation Loss: 0.8196 | mIoU: 0.5052
+S1 (Seg) | Epoch: 24 | Current LR: 7.5e-05
+S1 (Seg) (Seg) | Epoch: 25 | Average Training Loss: 0.1204
+S1 (Seg) Val | Epoch: 25 | Validation Loss: 0.8427 | mIoU: 0.4994
+S1 (Seg) | Epoch: 25 | Current LR: 7.5e-05
+S1 (Seg) (Seg) | Epoch: 26 | Average Training Loss: 0.1150
+S1 (Seg) Val | Epoch: 26 | Validation Loss: 0.8377 | mIoU: 0.5159
+S1 (Seg) | Epoch: 26 | Current LR: 7.5e-05
+S1 (Seg) (Seg) | Epoch: 27 | Average Training Loss: 0.1211
+S1 (Seg) Val | Epoch: 27 | Validation Loss: 0.8566 | mIoU: 0.4872
+S1 (Seg) | Epoch: 27 | Current LR: 7.5e-05
+S1 (Seg) (Seg) | Epoch: 28 | Average Training Loss: 0.1056
+S1 (Seg) Val | Epoch: 28 | Validation Loss: 0.8714 | mIoU: 0.4956
+S1 (Seg) | Epoch: 28 | Current LR: 5.6e-05
+S1 (Seg) (Seg) | Epoch: 29 | Average Training Loss: 0.1093
+S1 (Seg) Val | Epoch: 29 | Validation Loss: 0.8452 | mIoU: 0.4991
+S1 (Seg) | Epoch: 29 | Current LR: 5.6e-05
+S1 (Seg) (Seg) | Epoch: 30 | Average Training Loss: 0.1058
+S1 (Seg) Val | Epoch: 30 | Validation Loss: 0.8469 | mIoU: 0.4988
+S1 (Seg) | Epoch: 30 | Current LR: 5.6e-05
+S1 (Seg) (Seg) | Epoch: 31 | Average Training Loss: 0.1020
+S1 (Seg) Val | Epoch: 31 | Validation Loss: 0.8115 | mIoU: 0.5082
+S1 (Seg) | Epoch: 31 | Current LR: 5.6e-05
+S1 (Seg) (Seg) | Epoch: 32 | Average Training Loss: 0.1013
+S1 (Seg) Val | Epoch: 32 | Validation Loss: 0.7955 | mIoU: 0.4941
+S1 (Seg) | Epoch: 32 | Current LR: 5.6e-05
+S1 (Seg) (Seg) | Epoch: 33 | Average Training Loss: 0.0943
+S1 (Seg) Val | Epoch: 33 | Validation Loss: 0.8030 | mIoU: 0.4892
+S1 (Seg) | Epoch: 33 | Current LR: 5.6e-05
+S1 (Seg) (Seg) | Epoch: 34 | Average Training Loss: 0.0889
+S1 (Seg) Val | Epoch: 34 | Validation Loss: 0.8194 | mIoU: 0.5124
+S1 (Seg) | Epoch: 34 | Current LR: 5.6e-05
+S1 (Seg) (Seg) | Epoch: 35 | Average Training Loss: 0.0877
+S1 (Seg) Val | Epoch: 35 | Validation Loss: 0.8175 | mIoU: 0.5156
+S1 (Seg) | Epoch: 35 | Current LR: 5.6e-05
+S1 (Seg) (Seg) | Epoch: 36 | Average Training Loss: 0.0872
+S1 (Seg) Val | Epoch: 36 | Validation Loss: 0.7884 | mIoU: 0.5425
+S1 (Seg) | Epoch: 36 | Current LR: 4.2e-05
+S1 (Seg): New best mIoU: 0.5425, model saved.
+S1 (Seg) (Seg) | Epoch: 37 | Average Training Loss: 0.1010
+S1 (Seg) Val | Epoch: 37 | Validation Loss: 0.7622 | mIoU: 0.5464
+S1 (Seg) | Epoch: 37 | Current LR: 4.2e-05
+S1 (Seg): New best mIoU: 0.5464, model saved.
+S1 (Seg) (Seg) | Epoch: 38 | Average Training Loss: 0.0875
+S1 (Seg) Val | Epoch: 38 | Validation Loss: 0.7704 | mIoU: 0.5299
+S1 (Seg) | Epoch: 38 | Current LR: 4.2e-05
+S1 (Seg) (Seg) | Epoch: 39 | Average Training Loss: 0.0931
+S1 (Seg) Val | Epoch: 39 | Validation Loss: 0.8035 | mIoU: 0.5272
+S1 (Seg) | Epoch: 39 | Current LR: 4.2e-05
+S1 (Seg) (Seg) | Epoch: 40 | Average Training Loss: 0.0808
+S1 (Seg) Val | Epoch: 40 | Validation Loss: 0.8141 | mIoU: 0.5413
+S1 (Seg) | Epoch: 40 | Current LR: 4.2e-05
+S1 (Seg) (Seg) | Epoch: 41 | Average Training Loss: 0.0803
+S1 (Seg) Val | Epoch: 41 | Validation Loss: 0.8064 | mIoU: 0.5390
+S1 (Seg) | Epoch: 41 | Current LR: 4.2e-05
+S1 (Seg) (Seg) | Epoch: 42 | Average Training Loss: 0.0826
+S1 (Seg) Val | Epoch: 42 | Validation Loss: 0.7849 | mIoU: 0.5392
+S1 (Seg) | Epoch: 42 | Current LR: 4.2e-05
+S1 (Seg) (Seg) | Epoch: 43 | Average Training Loss: 0.0747
+S1 (Seg) Val | Epoch: 43 | Validation Loss: 0.7742 | mIoU: 0.5492
+S1 (Seg) | Epoch: 43 | Current LR: 4.2e-05
+S1 (Seg): New best mIoU: 0.5492, model saved.
+S1 (Seg) (Seg) | Epoch: 44 | Average Training Loss: 0.0779
+S1 (Seg) Val | Epoch: 44 | Validation Loss: 0.7721 | mIoU: 0.5587
+S1 (Seg) | Epoch: 44 | Current LR: 4.2e-05
+S1 (Seg): New best mIoU: 0.5587, model saved.
+S1 (Seg) (Seg) | Epoch: 45 | Average Training Loss: 0.0786
+S1 (Seg) Val | Epoch: 45 | Validation Loss: 0.7742 | mIoU: 0.5453
+S1 (Seg) | Epoch: 45 | Current LR: 4.2e-05
+S1 (Seg) (Seg) | Epoch: 46 | Average Training Loss: 0.0736
+S1 (Seg) Val | Epoch: 46 | Validation Loss: 0.7674 | mIoU: 0.5594
+S1 (Seg) | Epoch: 46 | Current LR: 4.2e-05
+S1 (Seg): New best mIoU: 0.5594, model saved.
+S1 (Seg) (Seg) | Epoch: 47 | Average Training Loss: 0.0729
+S1 (Seg) Val | Epoch: 47 | Validation Loss: 0.7716 | mIoU: 0.5564
+S1 (Seg) | Epoch: 47 | Current LR: 4.2e-05
+S1 (Seg) (Seg) | Epoch: 48 | Average Training Loss: 0.0777
+S1 (Seg) Val | Epoch: 48 | Validation Loss: 0.7876 | mIoU: 0.5530
+S1 (Seg) | Epoch: 48 | Current LR: 4.2e-05
+S1 (Seg) (Seg) | Epoch: 49 | Average Training Loss: 0.0848
+S1 (Seg) Val | Epoch: 49 | Validation Loss: 0.7933 | mIoU: 0.5449
+S1 (Seg) | Epoch: 49 | Current LR: 4.2e-05
+S1 (Seg) (Seg) | Epoch: 50 | Average Training Loss: 0.0749
+S1 (Seg) Val | Epoch: 50 | Validation Loss: 0.7898 | mIoU: 0.5456
+S1 (Seg) | Epoch: 50 | Current LR: 4.2e-05
+S1 (Seg) Finished. mIoU_base: 0.5594
+
+==================== S2 (Det) Training ====================
+S2 (Det) (Det Main) | Epoch: 1 | Avg Det Loss: 0.2403 | Avg Seg Distill: 0.0213 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 1 | Validation mAP@0.5: 0.0015
+S2 (Det) | Epoch: 1 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det): New best mAP: 0.0015, model saved.
+S2 (Det) (Det Main) | Epoch: 2 | Avg Det Loss: 0.1665 | Avg Seg Distill: 0.0233 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 2 | Validation mAP@0.5: 0.0014
+S2 (Det) | Epoch: 2 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det) (Det Main) | Epoch: 3 | Avg Det Loss: 0.1388 | Avg Seg Distill: 0.0190 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 3 | Validation mAP@0.5: 0.0042
+S2 (Det) | Epoch: 3 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det): New best mAP: 0.0042, model saved.
+S2 (Det) (Det Main) | Epoch: 4 | Avg Det Loss: 0.1260 | Avg Seg Distill: 0.0321 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 4 | Validation mAP@0.5: 0.0020
+S2 (Det) | Epoch: 4 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det) (Det Main) | Epoch: 5 | Avg Det Loss: 0.1192 | Avg Seg Distill: 0.0231 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 5 | Validation mAP@0.5: 0.0140
+S2 (Det) | Epoch: 5 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det): New best mAP: 0.0140, model saved.
+S2 (Det) (Det Main) | Epoch: 6 | Avg Det Loss: 0.1101 | Avg Seg Distill: 0.0221 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 6 | Validation mAP@0.5: 0.0020
+S2 (Det) | Epoch: 6 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det) (Det Main) | Epoch: 7 | Avg Det Loss: 0.1086 | Avg Seg Distill: 0.0223 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 7 | Validation mAP@0.5: 0.0048
+S2 (Det) | Epoch: 7 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det) (Det Main) | Epoch: 8 | Avg Det Loss: 0.1070 | Avg Seg Distill: 0.0248 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 8 | Validation mAP@0.5: 0.0054
+S2 (Det) | Epoch: 8 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det) (Det Main) | Epoch: 9 | Avg Det Loss: 0.1014 | Avg Seg Distill: 0.0222 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 9 | Validation mAP@0.5: 0.0069
+S2 (Det) | Epoch: 9 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det) (Det Main) | Epoch: 10 | Avg Det Loss: 0.0997 | Avg Seg Distill: 0.0206 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 10 | Validation mAP@0.5: 0.0085
+S2 (Det) | Epoch: 10 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det) (Det Main) | Epoch: 11 | Avg Det Loss: 0.0961 | Avg Seg Distill: 0.0249 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 11 | Validation mAP@0.5: 0.0021
+S2 (Det) | Epoch: 11 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det) (Det Main) | Epoch: 12 | Avg Det Loss: 0.0959 | Avg Seg Distill: 0.0259 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 12 | Validation mAP@0.5: 0.0053
+S2 (Det) | Epoch: 12 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det) (Det Main) | Epoch: 13 | Avg Det Loss: 0.0924 | Avg Seg Distill: 0.0242 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 13 | Validation mAP@0.5: 0.0134
+S2 (Det) | Epoch: 13 | Current Base LR for Optimizer: 5.0e-07
+S2 (Det) (Det Main) | Epoch: 14 | Avg Det Loss: 0.0906 | Avg Seg Distill: 0.0224 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 14 | Validation mAP@0.5: 0.0065
+S2 (Det) | Epoch: 14 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 15 | Avg Det Loss: 0.0901 | Avg Seg Distill: 0.0212 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 15 | Validation mAP@0.5: 0.0108
+S2 (Det) | Epoch: 15 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 16 | Avg Det Loss: 0.0905 | Avg Seg Distill: 0.0287 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 16 | Validation mAP@0.5: 0.0037
+S2 (Det) | Epoch: 16 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 17 | Avg Det Loss: 0.0905 | Avg Seg Distill: 0.0212 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 17 | Validation mAP@0.5: 0.0039
+S2 (Det) | Epoch: 17 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 18 | Avg Det Loss: 0.0888 | Avg Seg Distill: 0.0224 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 18 | Validation mAP@0.5: 0.0066
+S2 (Det) | Epoch: 18 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 19 | Avg Det Loss: 0.0877 | Avg Seg Distill: 0.0246 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 19 | Validation mAP@0.5: 0.0062
+S2 (Det) | Epoch: 19 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 20 | Avg Det Loss: 0.0890 | Avg Seg Distill: 0.0219 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 20 | Validation mAP@0.5: 0.0157
+S2 (Det) | Epoch: 20 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det): New best mAP: 0.0157, model saved.
+S2 (Det) (Det Main) | Epoch: 21 | Avg Det Loss: 0.0875 | Avg Seg Distill: 0.0198 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 21 | Validation mAP@0.5: 0.0119
+S2 (Det) | Epoch: 21 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 22 | Avg Det Loss: 0.0864 | Avg Seg Distill: 0.0215 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 22 | Validation mAP@0.5: 0.0060
+S2 (Det) | Epoch: 22 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 23 | Avg Det Loss: 0.0854 | Avg Seg Distill: 0.0213 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 23 | Validation mAP@0.5: 0.0067
+S2 (Det) | Epoch: 23 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 24 | Avg Det Loss: 0.0840 | Avg Seg Distill: 0.0181 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 24 | Validation mAP@0.5: 0.0031
+S2 (Det) | Epoch: 24 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 25 | Avg Det Loss: 0.0863 | Avg Seg Distill: 0.0194 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 25 | Validation mAP@0.5: 0.0047
+S2 (Det) | Epoch: 25 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 26 | Avg Det Loss: 0.0857 | Avg Seg Distill: 0.0264 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 26 | Validation mAP@0.5: 0.0080
+S2 (Det) | Epoch: 26 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 27 | Avg Det Loss: 0.0833 | Avg Seg Distill: 0.0210 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 27 | Validation mAP@0.5: 0.0067
+S2 (Det) | Epoch: 27 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 28 | Avg Det Loss: 0.0834 | Avg Seg Distill: 0.0267 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 28 | Validation mAP@0.5: 0.0046
+S2 (Det) | Epoch: 28 | Current Base LR for Optimizer: 2.5e-07
+S2 (Det) (Det Main) | Epoch: 29 | Avg Det Loss: 0.0822 | Avg Seg Distill: 0.0158 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 29 | Validation mAP@0.5: 0.0020
+S2 (Det) | Epoch: 29 | Current Base LR for Optimizer: 1.3e-07
+S2 (Det) (Det Main) | Epoch: 30 | Avg Det Loss: 0.0835 | Avg Seg Distill: 0.0186 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 30 | Validation mAP@0.5: 0.0109
+S2 (Det) | Epoch: 30 | Current Base LR for Optimizer: 1.3e-07
+S2 (Det) (Det Main) | Epoch: 31 | Avg Det Loss: 0.0811 | Avg Seg Distill: 0.0201 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 31 | Validation mAP@0.5: 0.0114
+S2 (Det) | Epoch: 31 | Current Base LR for Optimizer: 1.3e-07
+S2 (Det) (Det Main) | Epoch: 32 | Avg Det Loss: 0.0823 | Avg Seg Distill: 0.0211 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 32 | Validation mAP@0.5: 0.0054
+S2 (Det) | Epoch: 32 | Current Base LR for Optimizer: 1.3e-07
+S2 (Det) (Det Main) | Epoch: 33 | Avg Det Loss: 0.0822 | Avg Seg Distill: 0.0208 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 33 | Validation mAP@0.5: 0.0090
+S2 (Det) | Epoch: 33 | Current Base LR for Optimizer: 1.3e-07
+S2 (Det) (Det Main) | Epoch: 34 | Avg Det Loss: 0.0821 | Avg Seg Distill: 0.0270 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 34 | Validation mAP@0.5: 0.0037
+S2 (Det) | Epoch: 34 | Current Base LR for Optimizer: 1.3e-07
+S2 (Det) (Det Main) | Epoch: 35 | Avg Det Loss: 0.0827 | Avg Seg Distill: 0.0192 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 35 | Validation mAP@0.5: 0.0061
+S2 (Det) | Epoch: 35 | Current Base LR for Optimizer: 1.3e-07
+S2 (Det) (Det Main) | Epoch: 36 | Avg Det Loss: 0.0804 | Avg Seg Distill: 0.0220 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 36 | Validation mAP@0.5: 0.0074
+S2 (Det) | Epoch: 36 | Current Base LR for Optimizer: 1.3e-07
+S2 (Det) (Det Main) | Epoch: 37 | Avg Det Loss: 0.0815 | Avg Seg Distill: 0.0185 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 37 | Validation mAP@0.5: 0.0132
+S2 (Det) | Epoch: 37 | Current Base LR for Optimizer: 6.3e-08
+S2 (Det) (Det Main) | Epoch: 38 | Avg Det Loss: 0.0823 | Avg Seg Distill: 0.0182 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 38 | Validation mAP@0.5: 0.0056
+S2 (Det) | Epoch: 38 | Current Base LR for Optimizer: 6.3e-08
+S2 (Det) (Det Main) | Epoch: 39 | Avg Det Loss: 0.0826 | Avg Seg Distill: 0.0176 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 39 | Validation mAP@0.5: 0.0091
+S2 (Det) | Epoch: 39 | Current Base LR for Optimizer: 6.3e-08
+S2 (Det) (Det Main) | Epoch: 40 | Avg Det Loss: 0.0803 | Avg Seg Distill: 0.0235 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 40 | Validation mAP@0.5: 0.0069
+S2 (Det) | Epoch: 40 | Current Base LR for Optimizer: 6.3e-08
+S2 (Det) (Det Main) | Epoch: 41 | Avg Det Loss: 0.0815 | Avg Seg Distill: 0.0172 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 41 | Validation mAP@0.5: 0.0088
+S2 (Det) | Epoch: 41 | Current Base LR for Optimizer: 6.3e-08
+S2 (Det) (Det Main) | Epoch: 42 | Avg Det Loss: 0.0811 | Avg Seg Distill: 0.0225 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 42 | Validation mAP@0.5: 0.0128
+S2 (Det) | Epoch: 42 | Current Base LR for Optimizer: 6.3e-08
+S2 (Det) (Det Main) | Epoch: 43 | Avg Det Loss: 0.0806 | Avg Seg Distill: 0.0205 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 43 | Validation mAP@0.5: 0.0103
+S2 (Det) | Epoch: 43 | Current Base LR for Optimizer: 6.3e-08
+S2 (Det) (Det Main) | Epoch: 44 | Avg Det Loss: 0.0803 | Avg Seg Distill: 0.0205 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 44 | Validation mAP@0.5: 0.0060
+S2 (Det) | Epoch: 44 | Current Base LR for Optimizer: 6.3e-08
+S2 (Det) (Det Main) | Epoch: 45 | Avg Det Loss: 0.0810 | Avg Seg Distill: 0.0165 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 45 | Validation mAP@0.5: 0.0070
+S2 (Det) | Epoch: 45 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det) (Det Main) | Epoch: 46 | Avg Det Loss: 0.0810 | Avg Seg Distill: 0.0212 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 46 | Validation mAP@0.5: 0.0171
+S2 (Det) | Epoch: 46 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det): New best mAP: 0.0171, model saved.
+S2 (Det) (Det Main) | Epoch: 47 | Avg Det Loss: 0.0812 | Avg Seg Distill: 0.0191 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 47 | Validation mAP@0.5: 0.0134
+S2 (Det) | Epoch: 47 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det) (Det Main) | Epoch: 48 | Avg Det Loss: 0.0818 | Avg Seg Distill: 0.0195 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 48 | Validation mAP@0.5: 0.0179
+S2 (Det) | Epoch: 48 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det): New best mAP: 0.0179, model saved.
+S2 (Det) (Det Main) | Epoch: 49 | Avg Det Loss: 0.0798 | Avg Seg Distill: 0.0228 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 49 | Validation mAP@0.5: 0.0116
+S2 (Det) | Epoch: 49 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det) (Det Main) | Epoch: 50 | Avg Det Loss: 0.0796 | Avg Seg Distill: 0.0220 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 50 | Validation mAP@0.5: 0.0137
+S2 (Det) | Epoch: 50 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det) (Det Main) | Epoch: 51 | Avg Det Loss: 0.0807 | Avg Seg Distill: 0.0160 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 51 | Validation mAP@0.5: 0.0154
+S2 (Det) | Epoch: 51 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det) (Det Main) | Epoch: 52 | Avg Det Loss: 0.0807 | Avg Seg Distill: 0.0247 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 52 | Validation mAP@0.5: 0.0098
+S2 (Det) | Epoch: 52 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det) (Det Main) | Epoch: 53 | Avg Det Loss: 0.0812 | Avg Seg Distill: 0.0217 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 53 | Validation mAP@0.5: 0.0135
+S2 (Det) | Epoch: 53 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det) (Det Main) | Epoch: 54 | Avg Det Loss: 0.0788 | Avg Seg Distill: 0.0202 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 54 | Validation mAP@0.5: 0.0120
+S2 (Det) | Epoch: 54 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det) (Det Main) | Epoch: 55 | Avg Det Loss: 0.0813 | Avg Seg Distill: 0.0276 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 55 | Validation mAP@0.5: 0.0175
+S2 (Det) | Epoch: 55 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det) (Det Main) | Epoch: 56 | Avg Det Loss: 0.0801 | Avg Seg Distill: 0.0204 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 56 | Validation mAP@0.5: 0.0104
+S2 (Det) | Epoch: 56 | Current Base LR for Optimizer: 3.1e-08
+S2 (Det) (Det Main) | Epoch: 57 | Avg Det Loss: 0.0790 | Avg Seg Distill: 0.0210 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 57 | Validation mAP@0.5: 0.0181
+S2 (Det) | Epoch: 57 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det): New best mAP: 0.0181, model saved.
+S2 (Det) (Det Main) | Epoch: 58 | Avg Det Loss: 0.0795 | Avg Seg Distill: 0.0270 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 58 | Validation mAP@0.5: 0.0081
+S2 (Det) | Epoch: 58 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) (Det Main) | Epoch: 59 | Avg Det Loss: 0.0803 | Avg Seg Distill: 0.0209 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 59 | Validation mAP@0.5: 0.0061
+S2 (Det) | Epoch: 59 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) (Det Main) | Epoch: 60 | Avg Det Loss: 0.0796 | Avg Seg Distill: 0.0146 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 60 | Validation mAP@0.5: 0.0059
+S2 (Det) | Epoch: 60 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) (Det Main) | Epoch: 61 | Avg Det Loss: 0.0794 | Avg Seg Distill: 0.0230 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 61 | Validation mAP@0.5: 0.0192
+S2 (Det) | Epoch: 61 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det): New best mAP: 0.0192, model saved.
+S2 (Det) (Det Main) | Epoch: 62 | Avg Det Loss: 0.0797 | Avg Seg Distill: 0.0230 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 62 | Validation mAP@0.5: 0.0160
+S2 (Det) | Epoch: 62 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) (Det Main) | Epoch: 63 | Avg Det Loss: 0.0803 | Avg Seg Distill: 0.0174 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 63 | Validation mAP@0.5: 0.0199
+S2 (Det) | Epoch: 63 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det): New best mAP: 0.0199, model saved.
+S2 (Det) (Det Main) | Epoch: 64 | Avg Det Loss: 0.0803 | Avg Seg Distill: 0.0205 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 64 | Validation mAP@0.5: 0.0053
+S2 (Det) | Epoch: 64 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) (Det Main) | Epoch: 65 | Avg Det Loss: 0.0782 | Avg Seg Distill: 0.0193 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 65 | Validation mAP@0.5: 0.0069
+S2 (Det) | Epoch: 65 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) (Det Main) | Epoch: 66 | Avg Det Loss: 0.0800 | Avg Seg Distill: 0.0229 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 66 | Validation mAP@0.5: 0.0055
+S2 (Det) | Epoch: 66 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) (Det Main) | Epoch: 67 | Avg Det Loss: 0.0797 | Avg Seg Distill: 0.0198 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 67 | Validation mAP@0.5: 0.0058
+S2 (Det) | Epoch: 67 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) (Det Main) | Epoch: 68 | Avg Det Loss: 0.0794 | Avg Seg Distill: 0.0166 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 68 | Validation mAP@0.5: 0.0034
+S2 (Det) | Epoch: 68 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) (Det Main) | Epoch: 69 | Avg Det Loss: 0.0796 | Avg Seg Distill: 0.0195 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 69 | Validation mAP@0.5: 0.0086
+S2 (Det) | Epoch: 69 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) (Det Main) | Epoch: 70 | Avg Det Loss: 0.0834 | Avg Seg Distill: 0.0241 | Avg Cls Distill: 0.0000
+S2 (Det) Val | Epoch: 70 | Validation mAP@0.5: 0.0077
+S2 (Det) | Epoch: 70 | Current Base LR for Optimizer: 1.6e-08
+S2 (Det) Finished. mAP_base: 0.0199
+
+==================== S3 (Cls) Training ====================
+S3 (Cls) (Cls Main) | Epoch: 1 | Avg Cls Loss: 2.2197 | Avg Seg Distill: 0.0130 | Avg DetLogitsDistill: 0.0309 | Avg DetFeatDistill: 0.2098
+S3 (Cls) Val | Epoch: 1 | Validation Top-1 Acc: 0.4000
+S3 (Cls) | Epoch: 1 | Current Main LR: 1.0e-04
+S3 (Cls): New best Top1: 0.4000, model saved.
+S3 (Cls) (Cls Main) | Epoch: 2 | Avg Cls Loss: 1.9303 | Avg Seg Distill: 0.0246 | Avg DetLogitsDistill: 0.0306 | Avg DetFeatDistill: 0.2138
+S3 (Cls) Val | Epoch: 2 | Validation Top-1 Acc: 0.4833
+S3 (Cls) | Epoch: 2 | Current Main LR: 1.0e-04
+S3 (Cls): New best Top1: 0.4833, model saved.
+S3 (Cls) (Cls Main) | Epoch: 3 | Avg Cls Loss: 1.7690 | Avg Seg Distill: 0.0266 | Avg DetLogitsDistill: 0.0304 | Avg DetFeatDistill: 0.2108
+S3 (Cls) Val | Epoch: 3 | Validation Top-1 Acc: 0.5833
+S3 (Cls) | Epoch: 3 | Current Main LR: 1.0e-04
+S3 (Cls): New best Top1: 0.5833, model saved.
+S3 (Cls) (Cls Main) | Epoch: 4 | Avg Cls Loss: 1.6751 | Avg Seg Distill: 0.0227 | Avg DetLogitsDistill: 0.0325 | Avg DetFeatDistill: 0.2407
+S3 (Cls) Val | Epoch: 4 | Validation Top-1 Acc: 0.6333
+S3 (Cls) | Epoch: 4 | Current Main LR: 1.0e-04
+S3 (Cls): New best Top1: 0.6333, model saved.
+S3 (Cls) (Cls Main) | Epoch: 5 | Avg Cls Loss: 1.5443 | Avg Seg Distill: 0.0355 | Avg DetLogitsDistill: 0.0305 | Avg DetFeatDistill: 0.2331
+S3 (Cls) Val | Epoch: 5 | Validation Top-1 Acc: 0.6333
+S3 (Cls) | Epoch: 5 | Current Main LR: 1.0e-04
+S3 (Cls) (Cls Main) | Epoch: 6 | Avg Cls Loss: 1.4906 | Avg Seg Distill: 0.0282 | Avg DetLogitsDistill: 0.0314 | Avg DetFeatDistill: 0.2431
+S3 (Cls) Val | Epoch: 6 | Validation Top-1 Acc: 0.6500
+S3 (Cls) | Epoch: 6 | Current Main LR: 1.0e-04
+S3 (Cls): New best Top1: 0.6500, model saved.
+S3 (Cls) (Cls Main) | Epoch: 7 | Avg Cls Loss: 1.4572 | Avg Seg Distill: 0.0225 | Avg DetLogitsDistill: 0.0324 | Avg DetFeatDistill: 0.2621
+S3 (Cls) Val | Epoch: 7 | Validation Top-1 Acc: 0.6333
+S3 (Cls) | Epoch: 7 | Current Main LR: 1.0e-04
+S3 (Cls) (Cls Main) | Epoch: 8 | Avg Cls Loss: 1.3851 | Avg Seg Distill: 0.0301 | Avg DetLogitsDistill: 0.0356 | Avg DetFeatDistill: 0.2822
+S3 (Cls) Val | Epoch: 8 | Validation Top-1 Acc: 0.6167
+S3 (Cls) | Epoch: 8 | Current Main LR: 1.0e-04
+S3 (Cls) (Cls Main) | Epoch: 9 | Avg Cls Loss: 1.3782 | Avg Seg Distill: 0.0268 | Avg DetLogitsDistill: 0.0336 | Avg DetFeatDistill: 0.2751
+S3 (Cls) Val | Epoch: 9 | Validation Top-1 Acc: 0.6000
+S3 (Cls) | Epoch: 9 | Current Main LR: 1.0e-04
+S3 (Cls) (Cls Main) | Epoch: 10 | Avg Cls Loss: 1.3256 | Avg Seg Distill: 0.0299 | Avg DetLogitsDistill: 0.0324 | Avg DetFeatDistill: 0.2711
+S3 (Cls) Val | Epoch: 10 | Validation Top-1 Acc: 0.6000
+S3 (Cls) | Epoch: 10 | Current Main LR: 1.0e-04
+S3 (Cls) (Cls Main) | Epoch: 11 | Avg Cls Loss: 1.3101 | Avg Seg Distill: 0.0247 | Avg DetLogitsDistill: 0.0341 | Avg DetFeatDistill: 0.2660
+S3 (Cls) Val | Epoch: 11 | Validation Top-1 Acc: 0.6167
+S3 (Cls) | Epoch: 11 | Current Main LR: 1.0e-04
+S3 (Cls) (Cls Main) | Epoch: 12 | Avg Cls Loss: 1.2806 | Avg Seg Distill: 0.0292 | Avg DetLogitsDistill: 0.0340 | Avg DetFeatDistill: 0.2763
+S3 (Cls) Val | Epoch: 12 | Validation Top-1 Acc: 0.6000
+S3 (Cls) | Epoch: 12 | Current Main LR: 1.0e-04
+S3 (Cls) (Cls Main) | Epoch: 13 | Avg Cls Loss: 1.2659 | Avg Seg Distill: 0.0394 | Avg DetLogitsDistill: 0.0287 | Avg DetFeatDistill: 0.2519
+S3 (Cls) Val | Epoch: 13 | Validation Top-1 Acc: 0.6167
+S3 (Cls) | Epoch: 13 | Current Main LR: 1.0e-04
+S3 (Cls) (Cls Main) | Epoch: 14 | Avg Cls Loss: 1.2593 | Avg Seg Distill: 0.0240 | Avg DetLogitsDistill: 0.0272 | Avg DetFeatDistill: 0.2356
+S3 (Cls) Val | Epoch: 14 | Validation Top-1 Acc: 0.6500
+S3 (Cls) | Epoch: 14 | Current Main LR: 1.0e-04
+S3 (Cls) (Cls Main) | Epoch: 15 | Avg Cls Loss: 1.2201 | Avg Seg Distill: 0.0276 | Avg DetLogitsDistill: 0.0314 | Avg DetFeatDistill: 0.2603
+S3 (Cls) Val | Epoch: 15 | Validation Top-1 Acc: 0.6500
+S3 (Cls) | Epoch: 15 | Current Main LR: 5.0e-05
+S3 (Cls) (Cls Main) | Epoch: 16 | Avg Cls Loss: 1.2195 | Avg Seg Distill: 0.0292 | Avg DetLogitsDistill: 0.0296 | Avg DetFeatDistill: 0.2539
+S3 (Cls) Val | Epoch: 16 | Validation Top-1 Acc: 0.6833
+S3 (Cls) | Epoch: 16 | Current Main LR: 5.0e-05
+S3 (Cls): New best Top1: 0.6833, model saved.
+S3 (Cls) (Cls Main) | Epoch: 17 | Avg Cls Loss: 1.2088 | Avg Seg Distill: 0.0255 | Avg DetLogitsDistill: 0.0303 | Avg DetFeatDistill: 0.2622
+S3 (Cls) Val | Epoch: 17 | Validation Top-1 Acc: 0.6333
+S3 (Cls) | Epoch: 17 | Current Main LR: 5.0e-05
+S3 (Cls) (Cls Main) | Epoch: 18 | Avg Cls Loss: 1.2277 | Avg Seg Distill: 0.0321 | Avg DetLogitsDistill: 0.0315 | Avg DetFeatDistill: 0.2751
+S3 (Cls) Val | Epoch: 18 | Validation Top-1 Acc: 0.6333
+S3 (Cls) | Epoch: 18 | Current Main LR: 5.0e-05
+S3 (Cls) (Cls Main) | Epoch: 19 | Avg Cls Loss: 1.1497 | Avg Seg Distill: 0.0217 | Avg DetLogitsDistill: 0.0301 | Avg DetFeatDistill: 0.2543
+S3 (Cls) Val | Epoch: 19 | Validation Top-1 Acc: 0.6333
+S3 (Cls) | Epoch: 19 | Current Main LR: 5.0e-05
+S3 (Cls) (Cls Main) | Epoch: 20 | Avg Cls Loss: 1.1910 | Avg Seg Distill: 0.0310 | Avg DetLogitsDistill: 0.0311 | Avg DetFeatDistill: 0.2643
+S3 (Cls) Val | Epoch: 20 | Validation Top-1 Acc: 0.6333
+S3 (Cls) | Epoch: 20 | Current Main LR: 5.0e-05
+S3 (Cls) (Cls Main) | Epoch: 21 | Avg Cls Loss: 1.1426 | Avg Seg Distill: 0.0286 | Avg DetLogitsDistill: 0.0303 | Avg DetFeatDistill: 0.2676
+S3 (Cls) Val | Epoch: 21 | Validation Top-1 Acc: 0.6333
+S3 (Cls) | Epoch: 21 | Current Main LR: 5.0e-05
+S3 (Cls) (Cls Main) | Epoch: 22 | Avg Cls Loss: 1.1294 | Avg Seg Distill: 0.0273 | Avg DetLogitsDistill: 0.0277 | Avg DetFeatDistill: 0.2469
+S3 (Cls) Val | Epoch: 22 | Validation Top-1 Acc: 0.6833
+S3 (Cls) | Epoch: 22 | Current Main LR: 5.0e-05
+S3 (Cls) (Cls Main) | Epoch: 23 | Avg Cls Loss: 1.1323 | Avg Seg Distill: 0.0269 | Avg DetLogitsDistill: 0.0290 | Avg DetFeatDistill: 0.2470
+S3 (Cls) Val | Epoch: 23 | Validation Top-1 Acc: 0.6500
+S3 (Cls) | Epoch: 23 | Current Main LR: 5.0e-05
+S3 (Cls) (Cls Main) | Epoch: 24 | Avg Cls Loss: 1.1517 | Avg Seg Distill: 0.0283 | Avg DetLogitsDistill: 0.0324 | Avg DetFeatDistill: 0.2627
+S3 (Cls) Val | Epoch: 24 | Validation Top-1 Acc: 0.6833
+S3 (Cls) | Epoch: 24 | Current Main LR: 5.0e-05
+S3 (Cls) (Cls Main) | Epoch: 25 | Avg Cls Loss: 1.1023 | Avg Seg Distill: 0.0212 | Avg DetLogitsDistill: 0.0284 | Avg DetFeatDistill: 0.2526
+S3 (Cls) Val | Epoch: 25 | Validation Top-1 Acc: 0.6500
+S3 (Cls) | Epoch: 25 | Current Main LR: 2.5e-05
+S3 (Cls) (Cls Main) | Epoch: 26 | Avg Cls Loss: 1.1068 | Avg Seg Distill: 0.0335 | Avg DetLogitsDistill: 0.0322 | Avg DetFeatDistill: 0.2691
+S3 (Cls) Val | Epoch: 26 | Validation Top-1 Acc: 0.6667
+S3 (Cls) | Epoch: 26 | Current Main LR: 2.5e-05
+S3 (Cls) (Cls Main) | Epoch: 27 | Avg Cls Loss: 1.0829 | Avg Seg Distill: 0.0271 | Avg DetLogitsDistill: 0.0303 | Avg DetFeatDistill: 0.2632
+S3 (Cls) Val | Epoch: 27 | Validation Top-1 Acc: 0.6833
+S3 (Cls) | Epoch: 27 | Current Main LR: 2.5e-05
+S3 (Cls) (Cls Main) | Epoch: 28 | Avg Cls Loss: 1.1386 | Avg Seg Distill: 0.0282 | Avg DetLogitsDistill: 0.0291 | Avg DetFeatDistill: 0.2606
+S3 (Cls) Val | Epoch: 28 | Validation Top-1 Acc: 0.6667
+S3 (Cls) | Epoch: 28 | Current Main LR: 2.5e-05
+S3 (Cls) (Cls Main) | Epoch: 29 | Avg Cls Loss: 1.0965 | Avg Seg Distill: 0.0269 | Avg DetLogitsDistill: 0.0290 | Avg DetFeatDistill: 0.2573
+S3 (Cls) Val | Epoch: 29 | Validation Top-1 Acc: 0.6667
+S3 (Cls) | Epoch: 29 | Current Main LR: 2.5e-05
+S3 (Cls) (Cls Main) | Epoch: 30 | Avg Cls Loss: 1.0730 | Avg Seg Distill: 0.0310 | Avg DetLogitsDistill: 0.0276 | Avg DetFeatDistill: 0.2407
+S3 (Cls) Val | Epoch: 30 | Validation Top-1 Acc: 0.6833
+S3 (Cls) | Epoch: 30 | Current Main LR: 2.5e-05
+S3 (Cls) (Cls Main) | Epoch: 31 | Avg Cls Loss: 1.0329 | Avg Seg Distill: 0.0296 | Avg DetLogitsDistill: 0.0281 | Avg DetFeatDistill: 0.2488
+S3 (Cls) Val | Epoch: 31 | Validation Top-1 Acc: 0.6667
+S3 (Cls) | Epoch: 31 | Current Main LR: 2.5e-05
+S3 (Cls) (Cls Main) | Epoch: 32 | Avg Cls Loss: 1.1328 | Avg Seg Distill: 0.0224 | Avg DetLogitsDistill: 0.0321 | Avg DetFeatDistill: 0.2875
+S3 (Cls) Val | Epoch: 32 | Validation Top-1 Acc: 0.6667
+S3 (Cls) | Epoch: 32 | Current Main LR: 2.5e-05
+S3 (Cls) (Cls Main) | Epoch: 33 | Avg Cls Loss: 1.0766 | Avg Seg Distill: 0.0323 | Avg DetLogitsDistill: 0.0278 | Avg DetFeatDistill: 0.2452
+S3 (Cls) Val | Epoch: 33 | Validation Top-1 Acc: 0.6500
+S3 (Cls) | Epoch: 33 | Current Main LR: 1.3e-05
+S3 (Cls) (Cls Main) | Epoch: 34 | Avg Cls Loss: 1.0908 | Avg Seg Distill: 0.0251 | Avg DetLogitsDistill: 0.0283 | Avg DetFeatDistill: 0.2491
+S3 (Cls) Val | Epoch: 34 | Validation Top-1 Acc: 0.7167
+S3 (Cls) | Epoch: 34 | Current Main LR: 1.3e-05
+S3 (Cls): New best Top1: 0.7167, model saved.
+S3 (Cls) (Cls Main) | Epoch: 35 | Avg Cls Loss: 1.0653 | Avg Seg Distill: 0.0235 | Avg DetLogitsDistill: 0.0312 | Avg DetFeatDistill: 0.2727
+S3 (Cls) Val | Epoch: 35 | Validation Top-1 Acc: 0.6667
+S3 (Cls) | Epoch: 35 | Current Main LR: 1.3e-05
+S3 (Cls) (Cls Main) | Epoch: 36 | Avg Cls Loss: 1.0825 | Avg Seg Distill: 0.0180 | Avg DetLogitsDistill: 0.0276 | Avg DetFeatDistill: 0.2485
+S3 (Cls) Val | Epoch: 36 | Validation Top-1 Acc: 0.6833
+S3 (Cls) | Epoch: 36 | Current Main LR: 1.3e-05
+S3 (Cls) (Cls Main) | Epoch: 37 | Avg Cls Loss: 1.0383 | Avg Seg Distill: 0.0305 | Avg DetLogitsDistill: 0.0306 | Avg DetFeatDistill: 0.2673
+S3 (Cls) Val | Epoch: 37 | Validation Top-1 Acc: 0.6833
+S3 (Cls) | Epoch: 37 | Current Main LR: 1.3e-05
+S3 (Cls) (Cls Main) | Epoch: 38 | Avg Cls Loss: 1.0689 | Avg Seg Distill: 0.0238 | Avg DetLogitsDistill: 0.0278 | Avg DetFeatDistill: 0.2432
+S3 (Cls) Val | Epoch: 38 | Validation Top-1 Acc: 0.6833
+S3 (Cls) | Epoch: 38 | Current Main LR: 1.3e-05
+S3 (Cls) (Cls Main) | Epoch: 39 | Avg Cls Loss: 1.0697 | Avg Seg Distill: 0.0272 | Avg DetLogitsDistill: 0.0296 | Avg DetFeatDistill: 0.2605
+S3 (Cls) Val | Epoch: 39 | Validation Top-1 Acc: 0.7000
+S3 (Cls) | Epoch: 39 | Current Main LR: 1.3e-05
+S3 (Cls) (Cls Main) | Epoch: 40 | Avg Cls Loss: 1.0612 | Avg Seg Distill: 0.0269 | Avg DetLogitsDistill: 0.0286 | Avg DetFeatDistill: 0.2496
+S3 (Cls) Val | Epoch: 40 | Validation Top-1 Acc: 0.6500
+S3 (Cls) | Epoch: 40 | Current Main LR: 1.3e-05
+S3 (Cls) Finished. Top1_final: 0.7167
+
+============================== SINGLE PASS TRAINING COMPLETE ==============================
+Final best model from single pass saved as model_final_best_1pass.pt
+
+============================== FINAL EVALUATION AFTER SINGLE PASS ==============================
+Final Seg Eval | Epoch: 0 | Validation Loss: 0.7886 | mIoU: 0.5452
+Final Det Eval | Epoch: 0 | Validation mAP@0.5: 0.0205
+Final Cls Eval | Epoch: 0 | Validation Top-1 Acc: 0.7167
+Final Metrics after Single Pass:
+  Base mIoU (S1): 0.5594, Final mIoU (S3 model): 0.5452, Drop: 2.55%
+  Base mAP (S2): 0.0199, Final mAP (S3 model): 0.0205, Drop: -3.00%
+  Base Top1 (S3): 0.7167, Final Top1 (S3 model): 0.7167, Drop: 0.00%
+  Target Drop for Seg/Det/Cls <= 5.00%
+  Seg forgetting criterion MET.
+  Det forgetting criterion MET.
+  Cls forgetting criterion MET.

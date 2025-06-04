@@ -3,6 +3,7 @@
 ## Project Overview
 
 This project addresses a multi-task learning challenge: to develop a neural network model with a **single shared head** capable of simultaneously performing **Object Detection**, **Semantic Segmentation**, and **Image Classification**. A core objective is to design an efficient model architecture and training strategy that minimizes **Catastrophic Forgetting** when learning these tasks sequentially. The goal is to ensure that after learning all tasks, the performance drop for each task is no more than 5% compared to its individual training baseline.
+* [Github](https://github.com/VanLinLin/DL_Homework)
 
 ## Datasets
 

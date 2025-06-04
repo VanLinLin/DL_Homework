@@ -120,6 +120,24 @@ Using the single-pass sequential learning strategy with knowledge distillation (
 * **Detection (mAP@0.5)**: Baseline (S2) 0.0199, Final (S3 model) 0.0205, **Drop: -3.00% (Improved, MET)**
 * **Classification (Top-1 Acc)**: Baseline (S3) 0.7167, Final (S3 model) 0.7167, **Drop: 0.00% (MET)**
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="./plots/stage1_segmentation_metrics.png" alt="Stage 1 Segmentation Metrics" width="700"/>
+      <br><sub>Stage 1: Segmentation Metrics</sub>
+    </td>
+    <td align="center">
+      <img src="./plots/stage2_detection_metrics.png" alt="Stage 2 Detection Metrics" width="700"/>
+      <br><sub>Stage 2: Detection Metrics</sub>
+    </td>
+    <td align="center">
+      <img src="./plots/stage3_classification_metrics.png" alt="Stage 3 Classification Metrics" width="700"/>
+      <br><sub>Stage 3: Classification Metrics</sub>
+    </td>
+  </tr>
+</table>
+
+
 ## How to Run
 
 1.  **Environment Setup**:

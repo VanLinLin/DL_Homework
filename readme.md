@@ -17,7 +17,14 @@ All input images are uniformly resized to 512x512 pixels.
 ## Model Architecture (`models.py`)
 
 The model follows a general Encoder-Decoder structure, comprising a Backbone, Neck, Shared Head, and Task-specific Output Layers.
-
+<table>
+  <tr>
+    <td align="center">
+      <img src="./assets/model_architecture_diagram.png" alt="Model architecture" width="700"/>
+      <br><sub>Model architecture</sub>
+    </td>
+  </tr>
+</table>
 1.  **Backbone**:
     * The feature extraction part of **EfficientNet-B0** (pre-trained on ImageNet) is used as the backbone.
     * It extracts multi-scale feature maps; specifically, outputs from `features[5]` (s16 resolution, 112 channels) and `features[8]` (s32 resolution, 1280 channels) are utilized by the Neck.
@@ -72,6 +79,15 @@ A **Single Pass Sequential Learning** strategy was adopted, with the tasks learn
 5.  **Other Training Details**:
     * Mixed Precision Training (AMP) is used for faster training on compatible GPUs.
     * Global random seeds (NumPy, PyTorch, Python random) are set for reproducibility.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./assets/training_workflow_diagram.png" alt="Training workflow" width="700"/>
+      <br><sub>Training workflow</sub>
+    </td>
+  </tr>
+</table>
 
 ### Key Hyperparameter Reference (from a successful run):
 
